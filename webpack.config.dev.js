@@ -12,7 +12,7 @@ export default {
   output: {
     path: path.resolve(__dirname, 'src'),
     publicPath: '/',
-    filename: 'bund;e.js'
+    filename: 'bundle.js'
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'src')
