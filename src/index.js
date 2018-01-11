@@ -1,11 +1,9 @@
 import './index.css';
-
 import {getUsers, deleteUser} from './api/userApi';
 
 // Populate table of users via API call.
 getUsers().then(result => {
   let usersBody ="";
-
   result.forEach(user => {
     usersBody+= `<tr>
       <td><a href="#" data-id="${user.id}" class="deleteUser">Delete</a></td>
@@ -31,5 +29,4 @@ getUsers().then(result => {
       row.parentNode.removeChild(row);
     };
   });
-
 });
