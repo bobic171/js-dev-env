@@ -24,7 +24,7 @@
   "author": "Adam Farquhar",
   "license": "MIT",
   "dependencies": {
-    "node": "^9.3.0",
+    "node": "^9.4.0",
     "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {
